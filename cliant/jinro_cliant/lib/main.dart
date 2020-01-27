@@ -32,11 +32,12 @@ class MyApp extends StatelessWidget {
 // found in the LICENSE file.
 
 import 'package:flutter/material.dart';
-import 'package:flutter/english_words/english_words.dart';
+import 'package:english_words/english_words.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+  import 'package:aaa.dart';
   @override
   Widget build(BuildContext context) {
     final wordPair = WordPair.random();
